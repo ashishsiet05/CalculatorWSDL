@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615365050770
+Build-Jdk: 1.8.0_265
+Built-By: ashish
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Empty Soap Example Example
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Soap Example Example [camelAggretoreExample]
+Bundle-SymbolicName: camelAggretoreExample
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.requestprocesser;version="1.0.0";uses:="org.apache.c
+ amel",org.tempuri;version="1.0.0";uses:="javax.jws,javax.xml.bind.annot
+ ation,javax.xml.namespace,javax.xml.ws"
+Import-Package: javax.jws,javax.xml.bind.annotation,javax.xml.namespace,
+ javax.xml.ws,org.apache.camel;version="[2.21,3)",org.osgi.service.bluep
+ rint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)",org.tempuri;ve
+ rsion="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
